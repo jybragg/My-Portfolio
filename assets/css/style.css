@@ -1,7 +1,6 @@
 
-#mainNav {
+nav {
     background-color: rgb(251, 253, 137);
-
 };
 
 #auth-image { 
@@ -10,3 +9,12 @@
     width: 300px;
     border: solid;
     }
+
+#contact {
+    margin-top: 100px;
+    background-color: rgb(251, 253, 137);
+};
+
+#portfolio-head {
+    margin-top: 100px;
+}
