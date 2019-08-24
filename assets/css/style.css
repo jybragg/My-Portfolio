@@ -1,0 +1,12 @@
+
+#mainNav {
+    background-color: rgb(251, 253, 137);
+
+};
+
+#auth-image { 
+    float: left;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    }
