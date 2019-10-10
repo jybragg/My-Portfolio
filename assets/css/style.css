@@ -1,8 +1,7 @@
-#masthead {
-  /* background-image: url("assets/images/IMG_3578.jpg"); */
-  background: rgb(138, 148, 236);
-  height: 100vh;
 
+#masthead {
+  /* background-image: url("/assets/images/bg-masthead.jpg"); */
+  height: 100vh;
 }
 
 #mainhead {
@@ -15,7 +14,7 @@
 }
 
 #img-container {
-  padding-left: 170px;
+  padding-left: 190px;
   padding-top: 12%;
 }
 
