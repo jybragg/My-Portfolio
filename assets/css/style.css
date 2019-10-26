@@ -1,7 +1,14 @@
 
 #masthead {
-  /* background-image: url("/assets/images/bg-masthead.jpg"); */
+  background-image: url("../images/bg-masthead.jpg");
   height: 100vh;
+  /* opacity: 0.7; */
+  /* background-color: #f4623a; */
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(223, 151, 101, 0.8)), to(rgba(240, 182, 143, 0.8))), url("../images/bg-masthead.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 #mainhead {
@@ -37,5 +44,9 @@
     margin-top: 100px;
    
 }
+/* 
+#aboutBtn { 
+  border-radius: 50%;
+} */
 
 
