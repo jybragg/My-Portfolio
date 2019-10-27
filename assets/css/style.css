@@ -40,13 +40,20 @@
   padding-top: 2%;
 }
 
-#contact {
-    margin-top: 100px;
-   
-}
 /* 
 #aboutBtn { 
   border-radius: 50%;
 } */
 
+#mainPortfolio {
+  background: gray;
+}
 
+#mainContact {
+  height: 100vh;
+}
+
+#contact {
+  margin-top: 100px;
+ 
+}
