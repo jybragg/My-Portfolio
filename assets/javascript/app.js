@@ -1,23 +1,5 @@
 console.log("I am connected");
 
-// (function($) {
-//     "use strict"; // Start of use strict
-
-// Smooth scrolling using jQuery easing
-// $(".js-scroll-trigger").click(function () {
-//     console.log("btn working");
-//     //   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-//     var target = $(this.hash);
-//      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-
-//     $('html, body').animate({
-//         scrollTop: (target.offset().top - 72)
-//     }, 1000, "easeInOutExpo");
-
-// });
-
-//   })(jQuery); // End of use strict
-
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $(".js-scroll-trigger").on('click', function(event) {
@@ -42,3 +24,5 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+  

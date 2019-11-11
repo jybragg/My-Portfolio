@@ -51,6 +51,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     width: 300px;
     border: solid;
     }
+/* 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+} */
 
 #about-container {
   padding-right: 200px;
@@ -82,11 +87,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 #mainContact {
   height: 100vh;
+  background:  #291086;
 }
 
-#contact {
+/* #contact {
   margin-top: 100px;
-}
+} */
 
 #backToTop {
   margin-right: 4rem;
@@ -1055,6 +1061,12 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
       transition: none;
     }
   }
+
+/* =====Scroll==== */
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
 
 /* ============ Main Mav =============== */
   
