@@ -40,9 +40,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 #about {
   background: #291086;
 }
+
 #links {
   text-shadow: 2px 2px 4px #000000;
 }
+
 #aboutMe {
   text-shadow: 2px 2px 4px #000000;
 }
@@ -56,12 +58,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     height: 300px;
     width: 300px;
     border: solid;
-    }
-/* 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-} */
+}
 
 #about-container {
   padding-right: 200px;
@@ -85,9 +82,11 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 #description {
   text-shadow: 2px 2px 4px #000000;
 }
+
 #portfolioBtn{
   background: #495057;
 }
+
 #mainPortfolio {
   background: gray;
 }
@@ -101,10 +100,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   height: 100vh;
   background:  #291086;
 }
-
-/* #contact {
-  margin-top: 100px;
-} */
 
 #backToTop {
   margin-right: 4rem;

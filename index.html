@@ -85,12 +85,21 @@
                     customer
                     service. Self motivated, fluent in Spanish, and adept at working with diverse teams to implement
                     projects and passionate about software architecture and cloud computing.</p>
+                  <div class="row">
+                    <div class="container-fluid text-center" id="links">
+                      <a href="./assets/images/JasminResume2019.pdf" target="_blank">
+                        <h3 class="section-subheading text-white  m-0">View My Resume
+                        </h3>
+                    </div>
+                  </div>
+                  <br>
                   <a class="btn  btn-dark btn-lg text-uppercase js-scroll-trigger" id="portfolioBtn"
                     href="#mainPortfolio">My
                     Portfolio</a>
                 </div>
               </div>
             </div>
+
   </section>
 
   <!-- Portfolio Section -->
@@ -148,15 +157,12 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="./assets/images/competency.jpg" class="card-img-top" alt="Projects">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                <img src="./assets/images/clickhere.jpg" class="card-img-top" alt="Projects"></a>
               <div class="card-body">
-                <p class="card-text">Static, Dynamic, ServerSide, etc..</p>
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="btn-group">
-                    <a type="button" class="btn btn-sm btn-outline-secondary" href="#">View Deployed Project</a>
-                    <a type="button" class="btn btn-sm btn-outline-secondary" href="https://github.com/jybragg">GitHub
-                      Link</a>
-                  </div>
+                <div class="portfolio-caption">
+                  <h4>Competency Projects</h4>
+                  <p>Static, Dynamic, ServerSide, etc.. </p>
                 </div>
               </div>
             </div>
@@ -228,9 +234,78 @@
     </div>
   </footer>
 
-  <script src="assets/javascript/app.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Portfolio Modal -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- P-1 -->
+          <hr>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase py-1 my-1">Project 1</h2>
+                <p class="item-intro text-muted py-1 my-1">Web Application</p>
+                <p class="my-1">
+                  The project demonstrates use of ...
+                </p>
+                <ul class="list-inline social-buttons pt-3 justify-content-center">
+                  <a href="" target="_blank">
+                    <button class="btn btn-primary">Click Here For Live Demo</button>
+                  </a>
+                  <br>
+                  <li class="list-inline-item">
+                    <a href="" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- P-2 -->
+          <hr>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase py-1 my-1">Project 2</h2>
+                <p class="item-intro text-muted py-1 my-1">Command Line Interfacing Application</p>
+                <p class="my-1">
+                  The project demonstrates use of node.js and mySQL. The app demonstartes the use of mySQL database to
+                  manage inventory when a customer makes purchase through the CLI.
+                </p>
+                <ul class="list-inline social-buttons pt-3">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/Priyesh91/Bamazon-MySql-Node" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+                <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/Bamazon-1.PNG" alt="">
+                <button class="btn btn-danger" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+
+
+
+          <script src="assets/javascript/app.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
